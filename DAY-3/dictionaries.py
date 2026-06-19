@@ -1,10 +1,7 @@
 # Creating a dictionary
-student = {
-    "name": "Aravind",
-    "age": 21,
+student = { "name": "Aravind", "age": 21,
     "course": "Python"
 }
-print("Original Dictionary:")
 print(student)
 print("\nName:", student["name"])
 student["city"] = "Hyderabad"
