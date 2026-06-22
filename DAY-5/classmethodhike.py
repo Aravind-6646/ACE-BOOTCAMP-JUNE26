@@ -6,6 +6,9 @@ class student:
     @classmethod
     def hike(cls):
         return "I am a class method..."
+    @staticmethod
+    def result(frame,lname):
+        return f"{frame} {lname}"
     def name(self):
         print(self.name)
     def __repr__(self):
@@ -14,6 +17,6 @@ class student:
         return f"Name: {self.name}, Branch: {self.branch}, Rno: {self.rno}"
 s1=student("sachin", "cse", 101)
 s2=student("rahul", "ece", 102)
+s1=student.result("sachin","kumar")
 print(s1)
-print(s2)
-print(student.hike())        
+
