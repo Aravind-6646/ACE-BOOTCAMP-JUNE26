@@ -1,0 +1,15 @@
+import numpy as np
+arr=np.array([[1,2],[3,4]])
+arr1=np.array([[5,6],[7,8]])
+print("Addition of two arrays:\n",arr+arr1)
+print("Subtraction of two arrays:\n",arr-arr1)
+
+print(np.sum(arr))  
+print(np.mean(arr))
+print(np.median(arr))  
+print(np.std(arr))
+print(np.var(arr))
+print(np.min(arr))
+print(np.max(arr))
+print(np.argmin(arr))
+print(np.argmax(arr))

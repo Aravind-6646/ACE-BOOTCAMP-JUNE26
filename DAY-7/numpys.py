@@ -1,0 +1,10 @@
+import numpy as np
+print(np.__version__)
+arr1=np.array([[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15]],
+              [[16,17,18,19,20],[21,22,23,24,25],[26,27,28,29,30]],
+              [[31,32,33,34,35],[36,37,38,39,40],[41,42,43,44,45]]])
+print(arr1)
+#to check dimension of array
+print(arr1.ndim)
+print(arr1.shape)
+#print(arr1[0,2,4])
